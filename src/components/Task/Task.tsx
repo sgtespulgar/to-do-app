@@ -1,9 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import './task.css';
-import { RootState } from '../../redux/store';
 import { doneTask, deleteTask, editTask } from '../../redux/reducer';
 
 interface TaskProps {
