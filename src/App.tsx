@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import './App.css'
 import { RootState } from './redux/store';
 import AddTask from './components/AddTask/AddTask';
