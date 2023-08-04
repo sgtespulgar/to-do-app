@@ -14,7 +14,7 @@ interface TaskProps {
 
 const Task: React.FC<TaskProps> = ({id, name, completed}) => {
   
-  const task  = useSelector((state: RootState) => state.tasks.tasks[state.tasks.tasks.length-1])
+  //const task  = useSelector((state: RootState) => state.tasks.tasks[state.tasks.tasks.length-1])
 
   const dispatch = useDispatch();
  ;

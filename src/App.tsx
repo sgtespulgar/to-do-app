@@ -13,7 +13,7 @@ interface Task {
 
 function App() {
   const tasks : Task[] = useSelector((state: RootState) => state.tasks.tasks)
-  const dispatch = useDispatch();
+  //const dispatch = useDispatch();
 
   return (
     <div style={{textAlign : 'center', margin: '50px'}}>
